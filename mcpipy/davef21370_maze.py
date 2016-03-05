@@ -6,8 +6,8 @@
 # mcpipy.com retrieved from URL below, written by davef21370
 # https://github.com/brooksc/mcpipy/blob/master/davef21370_maze.py
 
-from .. import minecraft
-from .. import block
+import mcpi.minecraft as minecraft
+import mcpi.block as block
 import sys, random
 from random import randint as rand
 import server
