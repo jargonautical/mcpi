@@ -7,8 +7,8 @@
 # http://www.stuffaboutcode.com/2013/02/raspberry-pi-minecraft-analogue-clock.html
 
 #import the minecraft.py module from the minecraft directory
-from .. import minecraft
-from .. import block
+import mcpi.minecraft as minecraft
+import mcpi.block as block
 #import time, so delays can be used
 import time
 #import datetime, to get the time!
