@@ -1,7 +1,7 @@
 # mcpipy.com retrieved from URL below, written by astrotutor
 # http://www.minecraftforum.net/topic/1698103-camerasetpos-not-working-magic-trick/
 
-from .. import minecraft
+import mcpi.minecraft as minecraft
 import time as time
 
 mc = minecraft.Minecraft.create()
