@@ -4,7 +4,7 @@
 # https://bitbucket.org/dwales/minesweeper-for-minecraft-pi-edition/src
 
 
-from .. import minecraft
+import mcpi.minecraft as minecraft
 import server
 import random
 import threading
