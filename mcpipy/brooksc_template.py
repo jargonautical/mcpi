@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 #import the minecraft.py module from the minecraft directory
-from .. import minecraft
+import mcpi.minecraft as minecraft
 import server
 
 def main():
