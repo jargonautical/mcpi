@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 
 #import the minecraft.py module from the minecraft directory
-from .. import minecraft
-from .. import block
+import mcpi.minecraft as minecraft
+import mcpi.block as block
 import server
 
 def main():
