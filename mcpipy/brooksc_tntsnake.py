@@ -9,8 +9,8 @@
 # leave a 5 block "plus" of TNT in it's path
 # 3. Pick a new direction and go in that direction
 # It should not double back on itself or go the same direction...
-from .. import minecraft
-from .. import block
+import mcpi.minecraft as minecraft
+import mcpi.block as block
 import time
 import random
 import math
