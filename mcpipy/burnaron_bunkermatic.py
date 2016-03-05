@@ -3,8 +3,8 @@
 # mcpipy.com retrieved from URL below, written by burnaron
 # http://www.minecraftforum.net/topic/1689199-my-first-script-bunkermaticpy/
 
-from .. import minecraft
-from .. import block
+import mcpi.minecraft as minecraft
+import mcpi.block as block
 import server
 
 mc = minecraft.Minecraft.create(server.address)
