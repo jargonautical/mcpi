@@ -5,6 +5,8 @@ This is a collection of small Python programmes for controlling events in Minecr
 
 If you are the original creator of anything on here and haven't been credited or aren't happy with the existing attribution, please get in touch and let me know.
 
+mcpipy folder and contents originally forked from https://github.com/brooksc/mcpipy
+
 Getting started ... you should definitely go to this tutorial:
 http://www.raspberrypi-spy.co.uk/2014/05/how-to-setup-the-minecraft-python-api-on-a-raspberry-pi/
 
